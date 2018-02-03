@@ -13,7 +13,57 @@ in html
 <!-- All styles and javascript go inside the head -->
     <head>
         <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
         <title> Evert Rodriguez: Personal Website</title>
+        <style>
+            h1,h2{
+                font-family: 'Roboto Mono', monospace;
+            }
+            body{
+                background-color:#336699;
+                color:#ffffff;
+            }
+            header,nav, main, footer{
+                text-align:center;
+            }
+            nav a{
+                padding: 10px;
+                font-size:1.5em;
+                color: black;
+                text-decoration: none;
+            }
+            nav a:hover, #current{
+                border-bottom:2px black solid;
+                font-size:2em;
+                transition: .9s;
+            }
+            #content{
+                padding-top:20px;
+                display: block;
+                text-align:center;
+            }
+            .hobby{
+                color:#bbc1cc;
+            }
+            table{
+                display:table;
+                margin: 0px auto;
+            }
+            td {
+                padding-right: 10px;
+                font-size: 1.3em;
+            }
+            td strong {
+                color: #bbc1cc;
+            }
+            ul{
+                padding-left:450px;
+                text-align:left;
+            }
+            .table-row{
+                background-color: black;
+            }
+        </style>
         
     </head>
 <!-- closing head -->
@@ -28,7 +78,7 @@ in html
         <nav>
             <hr width="50%" />
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
+            <a href="about.html" id="current">About</a>
             <a href="contact.html">Contact</a>
         </nav>
         
@@ -54,23 +104,20 @@ in html
             </table>
             
             <ul>
-                <li>Music: I like many diffrent types of music but my favorite genre is Hip-Hop.</li>
-                <li>Photography: I like to take pictures of nature and try to take at least one good photo per week.</li>
-                <li>Bicyling: I'm trying to ride my bike more often and will try to ride for at least 30 minutes a day.</li>
+                <li><span class="hobby">Music:</span> I like many diffrent types of music but my favorite genre is Hip-Hop.</li>
+                <li><span class="hobby">Photography:</span> I like to take pictures of nature and try to take at least one good photo per week.</li>
+                <li><span class="hobby">Bicyling:</span> I'm trying to ride my bike more often and will try to ride for at least 30 minutes a day.</li>
             </ul>
         </div>
- 
-        
-        
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
         <footer>
-            <hr>
+            <hr width="75%">
             CST336. 2018 Rodriguez <br />
             <strong>Disclaimer:</strong> The informaiton in this webpage is fictitous.<br />
-            It is used for academic purposes only.
-            
+            It is used for academic purposes only.<br></br>
+            <img id="csumbLogo" src="img/csumb.png" alt="CSUMB logo." />
         </footer>
         <!-- closing footer -->
         
