@@ -1,2 +1,0 @@
-# everodriguez
-Evert Rodriguez
