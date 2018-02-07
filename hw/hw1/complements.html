@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+<!--CST336 Homework1-->
+
+<!-- This is the head -->
+    <head>
+        <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+        <link  href="styles.css" rel="stylesheet" type="text/css" />
+        <title>Number Representations in Computer Science</title>
+    </head>
+<!-- closing head -->
+
+<!-- This is the body -->
+    <body>
+        <header>
+            <h1>Number Representations in Computer Science</h1>
+        </header>
+
+        <nav id="topNavigation">
+          <hr width="75%" />
+          <a href="index.html">Overview</a>
+          <a href="binary.html">Binary</a>
+          <a href="complements.html"  id="current" style=" #e93031">1s & 2s Complements</a>
+          <a href="hex.html">Hexadicmal</a>
+        </nav>
+
+        <nav id="sideNavigation">
+          <a href="#Uses">Uses</a></br></br>
+          <a href="#Theory">Theory</a></br></br>
+          <a href="#Example">Example</a></br></br>
+          <a href="#Resources">Resources</a>
+        </nav>
+        
+        <figure>
+          <img id="complementsPicture" src="https://delightlylinux.files.wordpress.com/2014/10/l12-2.png" alt="1 and 2s complements example" width="500" height="400" />
+          <figcaption><em>How to convert from binary, to 1s complements and 2s complements.</em></figcaption>
+        </figure>
+        
+        <main>
+          <h3 id="Uses">Uses</h3>
+          <p>Computer hardware system need to have system for adding binary numbers, such as the one in the previous page.  However, we also need a sytem
+          for representing negative numbers.  For this we have 1s and 2s complements.</p>
+          <h3 id="Theory">Theory</h3>
+          <p>Using 1s and 2s complement allows us to do arithmitic using binary numbers.  These systems allows us to represent both negative and postive
+          numbers in one system, just like the one we are used to with decicaml numbers.</p>
+          <h3 id="Example">Example</h3>
+          <p>To get the first complement of a binary number, all we have to do is flip the digits, all the 1s becoome 0s and 0s become 1s.
+          In our previous exmaple, 25 = 11001 in binary.  In 1s complement, it would equal to 00110.  To get the 2s complement of a number, we simply add 1 to 
+          a 1s complement number.  So our number is now 00111 in 2s complement.</p>
+          <h3 id="Resources">Resources</h3>
+          <a href="https://en.wikipedia.org/wiki/Two%27s_complement">Wikipedia: 2s Complements</a>
+        </main>
+
+        <!-- This is the footer -->
+      </br>
+        <footer>
+          <hr width="75%">
+            CST336. 2018 Rodriguez &copy<br />
+            <strong>Disclaimer:</strong> The informaiton in this webpage is fictitous.<br />
+            It is used for academic purposes only.<br></br>
+             <img id="csumbLogo" src="img/csumb.png" alt="CSUMB logo." />
+        </footer>
+        <!-- closing footer -->
+    </body>
+<!-- closing body -->
+
+</html>
