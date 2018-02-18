@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+        <meta charset="utf-8" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <title> Evert Rodriguez: Personal Website</title>
+        <style>
+            h1,h2{
+                font-family: 'Roboto Mono', monospace;
+            }
+            body{
+                background-color:#336699;
+                color:#ffffff;
+            }
+            header,nav, footer,#content{
+                text-align:center;
+            }
+            nav a{
+                padding: 10px;
+                padding-bottom:5px;
+                text-decoration:none;
+                font-size:1.5em;
+                color: black;
+            }
+            nav a:hover, #current{
+                border-bottom:2px black solid;
+                font-size:2em;
+                transition: .9s;
+            }
+            #myPicture{
+                padding-left: 250px;
+                
+            }
+            aside, figure {
+                float:left;
+            }
+            aside {
+                text-align: left;
+                padding-left: 10px;
+                padding-top:  50px;
+                width:200px;
+                font-size: 1.3em;
+            }
+            footer{
+                clear: left;
+                color:#bbc1cc;
+            }
+        </style>
+    </head>
+<!-- closing head -->
+
+    <!-- This is the body -->
+    <!-- This is where we place the content of our website -->
+    <body>
+        <header>
+            <h1> Evert Rodriguez</h1>
+            <h2> Portfolio</h2>
+        </header>
+        <nav>
+            <hr width="50%" />
+            <a href="home.html" id="current">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+        <br /><br />
+        <div id="content">
+            <figure>
+                <img id="myPicture" src="img/evert_rodriguez.png" alt="picture of Evert Rodriguez." />
+            </figure>
+            <aside>
+                Hello! <br />
+                <p> Thank you for visiting my webpage!</p>
+                <p> I am a computer science student at CSUMB.</p>
+                
+                <em> "With ordinary talent and extraordinary <strong> perseverance</strong>,all things are attainable" </em><br />
+                -Thomas F. Buxton
+            </aside>
+        </div>
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr width="75%" />
+            CST336. 2018 Rodriguez &copy<br />
+            <strong>Disclaimer:</strong> The informaiton in this webpage is fictitous.<br />
+            It is used for academic purposes only.<br></br>
+            <img id="csumbLogo" src="img/csumb.png" alt="CSUMB logo." />
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>

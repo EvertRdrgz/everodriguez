@@ -1,2 +1,11 @@
 [05-Feb-2018 23:04:23 UTC] PHP Parse error:  syntax error, unexpected 'img' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/everodriguez/labs/lab2/index.php on line 10
 [05-Feb-2018 23:34:40 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ',' or ';' in /home/ubuntu/workspace/everodriguez/labs/lab2/index.php on line 42
+[18-Feb-2018 05:30:56 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab2/index.php on line 3
+[18-Feb-2018 05:30:56 UTC] PHP Stack trace:
+[18-Feb-2018 05:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab2/index.php:0
+[18-Feb-2018 05:30:56 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab2/index.php on line 3
+[18-Feb-2018 05:30:56 UTC] PHP Stack trace:
+[18-Feb-2018 05:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab2/index.php:0
+[18-Feb-2018 05:30:56 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/everodriguez/labs/lab2/index.php on line 18
+[18-Feb-2018 05:30:56 UTC] PHP Stack trace:
+[18-Feb-2018 05:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab2/index.php:0
