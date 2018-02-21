@@ -14,7 +14,7 @@
     #main {
         font-family: 'Baloo Bhaina', cursive;
         background-image:url("../img/machine.png");
-        width:600px;
+        width:620px;
         height:500px;
         position:relative;
         margin:0 auto;
@@ -37,7 +37,7 @@
     
     input{
         top:100px;
-        left:540px;
+        left:545px;
         position:absolute;
         font-size:1.3em;
         background-color: Transparent;
