@@ -1,6 +1,7 @@
 <?PHP
     function displaySymbol($randomvalue,$pos){
 
+
         switch ($randomvalue) {
             case '0':
                  $symbol = "lemon";
