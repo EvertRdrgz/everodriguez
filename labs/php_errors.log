@@ -9,3 +9,30 @@
 [18-Feb-2018 05:30:56 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/everodriguez/labs/lab2/index.php on line 18
 [18-Feb-2018 05:30:56 UTC] PHP Stack trace:
 [18-Feb-2018 05:30:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab2/index.php:0
+[21-Feb-2018 23:13:24 UTC] PHP Warning:  include(api/pixbayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 3
+[21-Feb-2018 23:13:24 UTC] PHP Stack trace:
+[21-Feb-2018 23:13:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:13:24 UTC] PHP Warning:  include(): Failed opening 'api/pixbayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 3
+[21-Feb-2018 23:13:24 UTC] PHP Stack trace:
+[21-Feb-2018 23:13:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:13:24 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 4
+[21-Feb-2018 23:13:24 UTC] PHP Stack trace:
+[21-Feb-2018 23:13:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:13:53 UTC] PHP Warning:  include(api/pixbayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 3
+[21-Feb-2018 23:13:53 UTC] PHP Stack trace:
+[21-Feb-2018 23:13:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:13:53 UTC] PHP Warning:  include(): Failed opening 'api/pixbayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 3
+[21-Feb-2018 23:13:53 UTC] PHP Stack trace:
+[21-Feb-2018 23:13:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:13:53 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 5
+[21-Feb-2018 23:13:53 UTC] PHP Stack trace:
+[21-Feb-2018 23:13:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:15:56 UTC] PHP Warning:  include(api/pixbayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 3
+[21-Feb-2018 23:15:56 UTC] PHP Stack trace:
+[21-Feb-2018 23:15:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:15:56 UTC] PHP Warning:  include(): Failed opening 'api/pixbayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 3
+[21-Feb-2018 23:15:56 UTC] PHP Stack trace:
+[21-Feb-2018 23:15:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0
+[21-Feb-2018 23:15:56 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/everodriguez/labs/lab4/index.php on line 8
+[21-Feb-2018 23:15:56 UTC] PHP Stack trace:
+[21-Feb-2018 23:15:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab4/index.php:0

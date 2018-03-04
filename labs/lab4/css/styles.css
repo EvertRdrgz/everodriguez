@@ -2,7 +2,6 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
     }
     
     input {
@@ -13,4 +12,7 @@
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;
+    }
+    h3{
+        color: black;
     }
