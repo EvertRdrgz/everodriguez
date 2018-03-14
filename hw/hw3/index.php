@@ -197,7 +197,7 @@ function checkAmount($num){
         CST336. 2018 Rodriguez &copy<br />
             <strong>Disclaimer:</strong> The informaiton in this webpage is fictitous.<br />
             It is used for academic purposes only.<br></br>
-            <img id="csumbLogo" src="/everodriguez/img/csumb.png" alt="CSUMB logo." />
+            <img id="csumbLogo" src="img/csumb.png" alt="CSUMB logo." />
     </footer>
     
 </html>
