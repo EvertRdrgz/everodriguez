@@ -14,8 +14,8 @@ function checkComplete(){
     $name = $_POST['contactName'];
     $email= $_POST['contactEmail'];
     
-    echo "Thank You, ".$name." for your purchase.</br>";
-    echo "You Bought " .$numOfTickets." Tickets for the game against " . $opponent;
+    echo "<p>Thank You, ".$name." for your purchase.</br>";
+    echo "You Bought " .$numOfTickets." Tickets for the game against " . $opponent."</p>";
    
     
     if($opponent == "UCLA"){
@@ -33,7 +33,7 @@ function checkComplete(){
         $total += $numOfTickets;
     }
     
-    echo "</br>Subtotal: ".$total;
+    echo "</br><p>Subtotal: ".$total;
     echo "</br>Tax: ".$total * .0825;
     echo "</br>Total: ".$toal = $total + ($total * .0825);
     echo "</br>Your confirmation number is: ".mt_rand(1000,9999);
@@ -41,15 +41,15 @@ function checkComplete(){
     
     
     if($delivery_type == "print"){
-         echo "</br>Please check your email in order to print your ticket(s)";
+         echo "</br>Please check your email in order to print your ticket(s)</p>";
     }
     elseif($delivery_type == "pickup"){
-        echo "</br>Please arrive 30 minutes before the start of the game in order to pick up your ticket(s)";
+        echo "</br>Please arrive 30 minutes before the start of the game in order to pick up your ticket(s)</p>";
     }
 
   }
   else{
-      echo "Please Make Sure You have completed the form in order to continue.";
+      echo '<p id="incomplete">Please Make Sure You Have Completed The Form In Order To Continue.</p>';
   }
     
 }
@@ -69,18 +69,20 @@ function checkAmount($num){
      <head>
         <title>Homework 3: Otter Baseball Tickets </title>
         <meta charset="utf-8"/>
+        <style>  @import url("css/styles.css");</style>
     </head>
     
     <body>
         <h1>Otter Baseball Ticket Center</h1>
+        <hr width="75%" />
         
-        <table>
+        <table id="table1" align="center">
             <tr>
-                <th>Opponent</th>    
-                <th>Location</th>
-                <th>Date</th>
-                <th>Time</th>
-                <th>Price</th>
+                <th id="heading">Opponent</th>    
+                <th id="heading">Location</th>
+                <th id="heading">Date</th>
+                <th id="heading">Time</th>
+                <th id="heading">Price</th>
             </tr>
             <tr>
                 <td>UCLA</td>
@@ -107,7 +109,7 @@ function checkAmount($num){
         </table>
         
         </br>
-        For which game would you like tickets?
+        <p id="heading"> For which game would you like tickets?</p>
         
         <form method="POST" >
             
@@ -139,7 +141,7 @@ function checkAmount($num){
         
         
         </br>
-        How many tickets would  you like? Maximum of 5 tickets per purchase.
+        <p id="heading">How many tickets would  you like? Maximum of 5 tickets per purchase.</p>
         </br>
             
              <select name="amount">
@@ -153,7 +155,7 @@ function checkAmount($num){
             
         
         </br>
-        Would you like to pick up tickets, or print at home?
+       <p id="heading"> Would you like to pick up tickets, or print at home? </p>
        
             </br>
             <input type="radio" name="delivery" value="pickup" id="delivery_pick_up"
@@ -171,18 +173,16 @@ function checkAmount($num){
                 echo "checked";
               }
              ?>>
-            <label for="delivery"> Print (This option includes a $1 convenice fee per ticket)</label>
+            <label for="delivery"> Print (This option includes a $1 convenice fee per ticket) </br></label>
       
-        
             </br>
-        
             <input type="text" size ="50" name="contactName" placeholder="Name" value="<?=$_POST['contactName']?>" />
             </br>
-            <label for="contact"> Please Enter Your Name</label>
+            <label for="contact" id="heading"> Please Enter Your Name</label>
             </br>
             <input type="text" size ="50" name="contactEmail" placeholder="E-mail" value="<?=$_POST['contactEmail']?>" />
             </br>
-            <label for="contact"> Please Enter Your E-mail</label>
+            <label for="contact" id="heading"> Please Enter Your E-mail</label>
             
             </br>
             <input type="submit" value="Submit"/>
@@ -190,11 +190,14 @@ function checkAmount($num){
         
         <?=checkComplete()?>
         
-        
+        <hr width="75%" />
     </body>
     
     <footer>
-        
+        CST336. 2018 Rodriguez &copy<br />
+            <strong>Disclaimer:</strong> The informaiton in this webpage is fictitous.<br />
+            It is used for academic purposes only.<br></br>
+            <img id="csumbLogo" src="/everodriguez/img/csumb.png" alt="CSUMB logo." />
     </footer>
     
 </html>
