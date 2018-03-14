@@ -22,9 +22,6 @@ if (isset($_GET['keyword'])) { //if form was submitted
       
   }
   
-  if(!isset($_GET['keyword'])){
-    echo "Sorry, nothing was entered.";
-  }
  
  function checkCategory($category){
    

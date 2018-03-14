@@ -31,3 +31,5 @@
 [21-Feb-2018 09:18:09 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/everodriguez/hw/hw2/index.php on line 15
 [21-Feb-2018 09:18:09 UTC] PHP Stack trace:
 [21-Feb-2018 09:18:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/hw/hw2/index.php:0
+[14-Mar-2018 14:28:50 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/everodriguez/hw/hw3/index.php on line 5
+[14-Mar-2018 15:56:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/everodriguez/hw/hw3/index.php on line 198
