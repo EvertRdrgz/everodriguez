@@ -36,7 +36,7 @@ function checkComplete(){
     echo "</br>Subtotal: ".$total;
     echo "</br>Tax: ".$total * .0825;
     echo "</br>Total: ".$toal = $total + ($total * .0825);
-    echo "</br>Your confirmation number is.".mt_rand(1000,9999);
+    echo "</br>Your confirmation number is: ".mt_rand(1000,9999);
     
     
     
@@ -119,7 +119,7 @@ function checkAmount($num){
               }
             ?>>
             <label for="schedule_ucla"> vs UCLA </label>
-            </br><input type="radio" name="schedule" value="UCSC" id="schedule_usca"
+            </br><input type="radio" name="schedule" value="UCSC" id="schedule_ucsc"
             <?php
             
               if($_POST['schedule']==UCSC){
@@ -127,10 +127,10 @@ function checkAmount($num){
               }
             ?>>
             <label for="schedule_ucsc"> @ UCSC </label>
-            </br><input type="radio" name="schedule_h" value="hartnell" id="schedule_hartnell"
+            </br><input type="radio" name="schedule" value="Hartnell" id="schedule_hartnell"
             <?php
             
-              if($_POST['schedule']==hartnell){
+              if($_POST['schedule']==Hartnell){
                 echo "checked";
               }
             ?>>
