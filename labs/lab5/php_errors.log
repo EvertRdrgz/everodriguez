@@ -1,0 +1,51 @@
+[20-Mar-2018 08:28:01 UTC] PHP Warning:  include(functions): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:28:01 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:01 UTC] PHP Warning:  include(): Failed opening 'functions' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:28:01 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:02 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 52
+[20-Mar-2018 08:28:02 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:28 UTC] PHP Warning:  include(functions): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:28:28 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:28 UTC] PHP Warning:  include(): Failed opening 'functions' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:28:28 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:28 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 52
+[20-Mar-2018 08:28:28 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:30 UTC] PHP Warning:  include(functions): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:28:30 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:30 UTC] PHP Warning:  include(): Failed opening 'functions' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:28:30 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:28:31 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 52
+[20-Mar-2018 08:28:31 UTC] PHP Stack trace:
+[20-Mar-2018 08:28:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:29:05 UTC] PHP Warning:  include(functions): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:29:05 UTC] PHP Stack trace:
+[20-Mar-2018 08:29:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:29:05 UTC] PHP Warning:  include(): Failed opening 'functions' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 2
+[20-Mar-2018 08:29:05 UTC] PHP Stack trace:
+[20-Mar-2018 08:29:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 08:29:06 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 53
+[20-Mar-2018 08:29:06 UTC] PHP Stack trace:
+[20-Mar-2018 08:29:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 21:33:19 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 10
+[20-Mar-2018 21:33:19 UTC] PHP Stack trace:
+[20-Mar-2018 21:33:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 21:33:19 UTC] PHP   2. array_push() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:10
+[20-Mar-2018 21:33:28 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php on line 10
+[20-Mar-2018 21:33:28 UTC] PHP Stack trace:
+[20-Mar-2018 21:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:0
+[20-Mar-2018 21:33:28 UTC] PHP   2. array_push() /home/ubuntu/workspace/everodriguez/labs/scart/scart/index.php:10
+[20-Mar-2018 22:03:42 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/everodriguez/labs/scart/scart/scart.php on line 3
+[20-Mar-2018 22:04:08 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/everodriguez/labs/scart/scart/scart.php on line 3
+[20-Mar-2018 22:04:20 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/everodriguez/labs/scart/scart/scart.php on line 3
+[20-Mar-2018 22:13:08 UTC] PHP Fatal error:  Call to undefined function displayCart() in /home/ubuntu/workspace/everodriguez/labs/scart/scart/scart.php on line 39
+[20-Mar-2018 22:13:08 UTC] PHP Stack trace:
+[20-Mar-2018 22:13:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/scart/scart/scart.php:0
+[20-Mar-2018 22:13:38 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/everodriguez/labs/scart/scart/scart.php on line 3
