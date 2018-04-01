@@ -48,3 +48,33 @@
 [12-Mar-2018 22:24:58 UTC] PHP Stack trace:
 [12-Mar-2018 22:24:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab6/index.php:0
 [12-Mar-2018 22:24:58 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/everodriguez/labs/lab6/index.php:85
+[26-Mar-2018 22:36:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' 
+            AND password = 'da39a3ee5e6b4b0d3255bfef95601890afd80709'' at line 3' in /home/ubuntu/workspace/everodriguez/labs/lab7/loginProcess.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab7/loginProcess.php(20): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab7/loginProcess.php on line 20
+[01-Apr-2018 03:41:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE '%ball%'' at line 1' in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(42): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(93): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php on line 42
+[01-Apr-2018 03:41:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE '%ball%'' at line 1' in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(42): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(93): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php on line 42
+[01-Apr-2018 03:51:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE '%ball%'' at line 1' in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(42): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(93): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php on line 42
+[01-Apr-2018 04:44:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(52): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(103): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php on line 52

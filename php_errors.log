@@ -23,3 +23,47 @@ Stack trace:
 #0 /home/ubuntu/workspace/everodriguez/Challenges/reports.php(62): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 62
+[01-Apr-2018 01:29:47 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 146
+[01-Apr-2018 01:29:47 UTC] PHP Stack trace:
+[01-Apr-2018 01:29:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 01:30:03 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 110
+[01-Apr-2018 01:30:03 UTC] PHP Stack trace:
+[01-Apr-2018 01:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 01:30:03 UTC] PHP   2. PDO->__construct() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:110
+[01-Apr-2018 01:30:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/ubuntu/workspace/everodriguez/Challenges/reports.php:110
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Challenges/reports.php(110): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 110
+[01-Apr-2018 01:30:18 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 146
+[01-Apr-2018 01:30:18 UTC] PHP Stack trace:
+[01-Apr-2018 01:30:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 01:32:13 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 147
+[01-Apr-2018 01:32:13 UTC] PHP Stack trace:
+[01-Apr-2018 01:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 01:34:13 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 148
+[01-Apr-2018 01:34:13 UTC] PHP Stack trace:
+[01-Apr-2018 01:34:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 01:36:08 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 147
+[01-Apr-2018 01:36:08 UTC] PHP Stack trace:
+[01-Apr-2018 01:36:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 01:37:40 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 147
+[01-Apr-2018 01:37:40 UTC] PHP Stack trace:
+[01-Apr-2018 01:37:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 01:39:38 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 152
+[01-Apr-2018 01:39:38 UTC] PHP Stack trace:
+[01-Apr-2018 01:39:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 02:23:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/everodriguez/Challenges/reports.php:134
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Challenges/reports.php(134): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 134
+[01-Apr-2018 02:24:19 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 158
+[01-Apr-2018 02:24:19 UTC] PHP Stack trace:
+[01-Apr-2018 02:24:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 02:26:26 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 158
+[01-Apr-2018 02:26:26 UTC] PHP Stack trace:
+[01-Apr-2018 02:26:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[01-Apr-2018 02:31:07 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 163
+[01-Apr-2018 02:31:07 UTC] PHP Stack trace:
+[01-Apr-2018 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
