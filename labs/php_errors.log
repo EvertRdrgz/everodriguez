@@ -78,3 +78,61 @@ Stack trace:
 #1 /home/ubuntu/workspace/everodriguez/labs/lab6/index.php(103): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/everodriguez/labs/lab6/index.php on line 52
+[02-Apr-2018 21:51:24 UTC] PHP Warning:  Missing argument 1 for getDatabaseConnection(), called in /home/ubuntu/workspace/everodriguez/labs/lab7/admin.php on line 4 and defined in /home/ubuntu/workspace/everodriguez/dbConnection.php on line 3
+[02-Apr-2018 21:51:24 UTC] PHP Stack trace:
+[02-Apr-2018 21:51:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/admin.php:0
+[02-Apr-2018 21:51:24 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/everodriguez/labs/lab7/admin.php:4
+[02-Apr-2018 21:51:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/everodriguez/labs/lab7/admin.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab7/admin.php(10): PDOStatement->execute()
+#1 /home/ubuntu/workspace/everodriguez/labs/lab7/admin.php(32): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab7/admin.php on line 10
+[02-Apr-2018 22:25:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php on line 17
+[02-Apr-2018 22:25:23 UTC] PHP Stack trace:
+[02-Apr-2018 22:25:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php:0
+[02-Apr-2018 22:25:23 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php:38
+[02-Apr-2018 22:26:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php on line 17
+[02-Apr-2018 22:26:03 UTC] PHP Stack trace:
+[02-Apr-2018 22:26:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php:0
+[02-Apr-2018 22:26:03 UTC] PHP   2. displayCategories() /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php:38
+[02-Apr-2018 22:26:55 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php on line 33
+[02-Apr-2018 22:26:55 UTC] PHP Stack trace:
+[02-Apr-2018 22:26:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/addProduct.php:0
+[04-Apr-2018 21:51:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 12
+[04-Apr-2018 21:51:31 UTC] PHP Stack trace:
+[04-Apr-2018 21:51:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:0
+[04-Apr-2018 21:51:31 UTC] PHP   2. getProductInfo() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:21
+[04-Apr-2018 22:30:29 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 59 and defined in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:30:29 UTC] PHP Stack trace:
+[04-Apr-2018 22:30:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:30:29 UTC] PHP   2. getCategories() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:59
+[04-Apr-2018 22:30:31 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 59 and defined in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:30:31 UTC] PHP Stack trace:
+[04-Apr-2018 22:30:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:30:31 UTC] PHP   2. getCategories() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:59
+[04-Apr-2018 22:30:35 UTC] PHP Warning:  Missing argument 1 for getCategories(), called in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 59 and defined in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 6
+[04-Apr-2018 22:30:35 UTC] PHP Stack trace:
+[04-Apr-2018 22:30:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:30:35 UTC] PHP   2. getCategories() /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:59
+[09-Apr-2018 21:46:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/everodriguez/labs/lab7/deleteProduct.php on line 9
+[09-Apr-2018 21:46:24 UTC] PHP Stack trace:
+[09-Apr-2018 21:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab7/deleteProduct.php:0
+[14-Apr-2018 19:51:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php(63): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 30
+[14-Apr-2018 19:52:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php(63): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 30
+[14-Apr-2018 19:54:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php:30
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php(30): PDOStatement->execute()
+#1 /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php(63): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/labs/lab7/updateProduct.php on line 30

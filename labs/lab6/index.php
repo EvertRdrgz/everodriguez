@@ -1,7 +1,13 @@
 <?php
+    session_start();
+    if(!isset($_SESSION['cart'])){
+        $_SESSION['cart'] = array();
+    }
+    
     include '../../dbConnection.php';
     
-    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
+    
+    $conn = getDatabaseConnection("Gamestore");
     
     function displayCategories(){
         global $conn;

@@ -67,3 +67,6 @@ Stack trace:
 [01-Apr-2018 02:31:07 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Challenges/reports.php on line 163
 [01-Apr-2018 02:31:07 UTC] PHP Stack trace:
 [01-Apr-2018 02:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/reports.php:0
+[02-Apr-2018 20:53:52 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/everodriguez/Group-Project/index.php on line 17
+[02-Apr-2018 20:53:52 UTC] PHP Stack trace:
+[02-Apr-2018 20:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Group-Project/index.php:0

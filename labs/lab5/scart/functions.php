@@ -1,4 +1,7 @@
 <?php 
+
+
+    
     function displayResults(){
     
     global $items;
