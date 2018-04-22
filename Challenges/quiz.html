@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Quiz </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+       <script>
+            
+            $(document).ready( function(){
+                
+                
+                  $("#submitBtn").click( function(){ 
+                      //alert(  $("#q1").val()  );
+                      
+                      if (  $("#q1").val().toUpperCase() == "SACRAMENTO"  ) {
+                          
+                         // alert("Correct!");
+                         
+                         $("#feedback1").html(" Correct! The capital is Sacramento!");
+                         
+                          
+                      } else {
+                          
+                         // alert("Incorrect!");
+                         
+                            $("#feedback1").html(" Incorrect! The capital is Sacramento!");
+                         
+                  
+                         
+                          
+                      }
+                      
+                      
+                      
+                  } );
+                  
+                  if ( $("#colorChoice").val() == "Red"){
+                      alert("dfklja;");
+                  }
+                  
+                  $("#colorChoice").click(function() {
+                      if ( $("#col").val() == "Red") {
+                          $("#blah").html("You like red");
+                      }
+                      else if ($("#col").val() == "Green") {
+                          $("#blah").html("You like green");
+                      }
+                      else if($("#colr").val() == "Blue") {
+                          $("#blah").html("You like blue");
+                      }
+                  });
+                
+                
+                
+            });
+            
+            
+            
+        </script>        
+    
+    </head>
+    <body>
+
+
+        1. What is the capital of California?
+        
+        <input id="q1" type="text">
+        
+        <div id="feedback1"></div>
+        
+        
+        <button id="submitBtn"> Submit Quiz </button>
+        <br>
+        
+        2. What's your favorite color?
+        
+        <select id="col">
+            <option class="color">Red</option>
+            <option class="color">Green</option>
+            <option class="color">Blue</option>
+        </select>
+        
+        <div id="blah"></div>
+        
+        <button id="colorChoice">Submit</button>
+
+
+    </body>
+    
+  
+</html>

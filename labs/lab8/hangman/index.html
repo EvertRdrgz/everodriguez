@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hangman</title>
+        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+   
+   
+    </head>
+    <body>
+
+        <div class='container text-center'>
+            <header>
+               <h1>Hangman</h1>
+            </header>
+            
+            <h2 id="word"></h2>
+            
+            <div id="letters">
+            
+            </div>
+            
+            <div id="won">
+                <h2>You Won!</h2>
+                <button class="replayBtn btn btn-success">Play Again</button>
+            </div>
+            <div id="lost">
+                <h2> You LOST!</h2>
+                <button class="replayBtn btn btn-warning">Play Again</button>
+            </div>
+            
+            <div id="man">
+               <img src="img/stick_0.png" id="hangImg">
+            </div>
+            
+        </div>
+
+
+
+    <script>
+            //VARIABLES
+            // Creating an array of available letters
+            var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
+                'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
+                'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+            var words = [{ word: "snake", hint: "It's a reptile" }, 
+                         { word: "monkey", hint: "It's a mammal" }, 
+                         { word: "beetle", hint: "It's an insect" }];
+            
+            var selectedWord = "";
+            var selectedHint = "";
+            var board = []; // empty array
+            var remainingGuesses = 6;
+
+            //LISTENERS
+            
+            // Begin the game when the page is fully loaded
+            window.onload = startGame();
+            
+            // Do something when clicking on each letter
+            $("#letters").on("click", ".letter", function(){
+                checkLetter($(this).attr("id"));
+                disableButton($(this));
+            });
+            
+            // Reload page when clicking on the replay button
+            $(".replayBtn").on("click", function() {
+                location.reload();
+            });
+             
+             function startGame() {
+                 
+                 pickWord();
+                 createLetters();
+                 initBoard();
+                 updateBoard();
+             }
+             
+             //alert(words[0]);
+             //console.log(words[0]);
+             
+             function pickWord() {
+                let randomInt = Math.floor(Math.random() * words.length );
+                selectedWord = words[randomInt].word.toUpperCase();
+                selectedHint = words[randomInt].hint;
+             }
+             
+             function createLetters(){
+                 for (var letter of alphabet){
+                     let letterInput = '"' + letter + '"';
+                     $("#letters").append("<button class='btn btn-success letter' id='" + letter + "'>" + letter + "</button>");
+                 }
+             }
+             
+             function initBoard() {
+                 for (var letters in selectedWord) {
+                     board.push("_");
+                 }
+             
+                 console.log(board);
+             }
+             
+             function updateBoard() {
+                 $("#word").empty();
+                 
+                 for (var i=0; i<board.length;i++) {
+                    $("#word").append(board[i] + " ");
+                 }
+                 
+                 $("#word").append("<br />");
+                 $("#word").append("<span class='hint'>Hint: " + selectedHint + "</span>");
+             }
+             
+             function updateWord(positions,letter){
+                 for (var pos of positions){
+                     board[pos] = letter;
+                 }
+                 
+                 updateBoard();
+                 
+                 if (!board.includes('_')) {
+                    endGame(true);
+                 }
+             }
+             
+             
+             function checkLetter(letter){
+                 var positions = new Array();
+                 
+                 for (var i = 0; i < selectedWord.length; i++){
+                     if (letter == selectedWord[i]){
+                         positions.push(i);
+                     }
+                 }
+                 
+                 if (positions.length>0){
+                     updateWord(positions,letter);
+                 }else{
+                     remainingGuesses -= 1;
+                     updateMan();
+                     
+                     if(remainingGuesses <= 0){
+                     endGame(false);
+                    }
+                 }
+             }
+             
+             
+             function updateMan(){
+                 $("#hangImg").attr("src","img/stick_"+(6-remainingGuesses) + ".png");
+             }
+             
+            function endGame(win){
+                $("#letters").hide();
+                 
+                if(win){
+                    $('#won').show();
+                }else{
+                    $('#lost').show();
+                }
+            }
+             
+             function disableButton(btn){
+                 btn.prop("disabled",true);
+                 btn.attr("class","btn btn-danger")
+             }
+         </script>
+
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+    
+    <img src='now_you_see_me.png'>
+    
+    <h1>Now you see me</h1>
+    
+    <input type='submit' id="button" value="Do Magic" onclick="home()"></input>
+    
+    <script>
+        function home(){
+            $("#button").click(function() {
+            $("h1").html("...now you don't");
+            $("img").attr("src", "now_you_dont.png");
+            $("#button").attr("value","Go Back");
+            $("#button").attr("onclick","goBack()");
+            });
+        }
+        
+        function goBack(){
+            $("#button").click(function() {
+            $("h1").html("now you see me");
+            $("img").attr("src", "now_you_see_me.png");
+            $("#button").attr("value","Do Magic");
+            $("#button").attr("onclick","home()");
+            });
+        }
+    </script>
+    </body>
+</html>
