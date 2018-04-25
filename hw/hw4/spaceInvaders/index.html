@@ -1,6 +1,10 @@
 <html>
 	<head>
 		<title>SPACE INVADERS</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+
+		
 		<script type="text/javascript">
 			var gameScreen;
 			var output;
@@ -158,11 +162,15 @@
 						explode(ship);
 						explode(enemies[i]);
 						ship.style.top = '-10000px';
+						button();
+						message("GAME OVER");
+						
 						placeEnemyShip(enemies[i]);
 					}
 				}
-			}//gameLoop
+				
 			
+			}//gameLoop
 			
 			
 			function fire(){
@@ -208,9 +216,36 @@
 				
 			}//hittest
 			
+			function button() {
+				var btn = document.createElement("BUTTON");
+				var t = document.createTextNode("START OVER");
+				btn.className = "reloadButton";
+				btn.appendChild(t);
+				document.body.appendChild(btn);
+				$(".reloadButton").click(function(){
+				//jQuery code will go here
+				document.location.reload();
+				
+				})
+			}
+			
+
+				function message(text) {
+				    var h = document.createElement("H1");
+				    var t = document.createTextNode(text);
+				    h.className = "message";
+				    h.style.top = "-1000px";
+				    h.style.color = "red";
+				    h.appendChild(t);
+				    output.appendChild(h);
+				    $(".message").animate({top:'200px'});
+				}
+		
+			
 			document.addEventListener('keypress',function(event) {
 			    if(event.charCode==32) fire();
 			})
+			
 			
 			document.addEventListener('keydown', function(event){
 				if(event.keyCode==37) leftArrowDown = true;
@@ -234,11 +269,24 @@
 				position: absolute;
 				z-index: 1;
 			}
+			
+			.reloadButton{
+				background-color: #555555;
+			    border: none;
+			    color: white;
+			    padding: 15px 32px;
+			    text-align: center;
+			    text-decoration: none;
+			    display: inline-block;
+			    font-size: 16px;
+			    border-radius: 12px;
+			}
+
 
 		</style>
 	</head>
 	<body onload="init()">
 		<div id="gameScreen"></div>
-		<div id="output">degugger</div>
+		<div id="output"></div>
 	</body>
 </html>
