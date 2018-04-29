@@ -150,3 +150,70 @@ Stack trace:
 #1 /home/ubuntu/workspace/everodriguez/Challenges/spacex2.php(167): getPastFlights()
 #2 {main}
   thrown in /home/ubuntu/workspace/everodriguez/Challenges/spacex2.php on line 95
+[26-Apr-2018 22:30:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/ubuntu/workspace/everodriguez/Practice/spacex2.php:81
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Practice/spacex2.php(81): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Practice/spacex2.php(174): getPastFlights()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Practice/spacex2.php on line 81
+[26-Apr-2018 22:34:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'flight_article' cannot be null' in /home/ubuntu/workspace/everodriguez/Practice/spacex2.php:81
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Practice/spacex2.php(81): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Practice/spacex2.php(174): getPastFlights()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Practice/spacex2.php on line 81
+[26-Apr-2018 22:34:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/ubuntu/workspace/everodriguez/Practice/spacex2.php:81
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Practice/spacex2.php(81): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Practice/spacex2.php(174): getPastFlights()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Practice/spacex2.php on line 81
+[27-Apr-2018 03:22:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC' at line 1' in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php:170
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php(170): PDOStatement->execute()
+#1 /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php(182): getUniqueFlightRockets()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php on line 170
+[27-Apr-2018 03:28:34 UTC] PHP Warning:  include(spacexAPIphp): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/index.php on line 3
+[27-Apr-2018 03:28:34 UTC] PHP Stack trace:
+[27-Apr-2018 03:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/index.php:0
+[27-Apr-2018 03:28:34 UTC] PHP Warning:  include(): Failed opening 'spacexAPIphp' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/index.php on line 3
+[27-Apr-2018 03:28:34 UTC] PHP Stack trace:
+[27-Apr-2018 03:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/index.php:0
+[27-Apr-2018 03:28:34 UTC] PHP Fatal error:  Call to undefined function getUniqueFlightRockets() in /home/ubuntu/workspace/everodriguez/Final/index.php on line 21
+[27-Apr-2018 03:28:34 UTC] PHP Stack trace:
+[27-Apr-2018 03:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/index.php:0
+[27-Apr-2018 04:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flight_year = '%2008%'' at line 1' in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php(271): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Final/index.php(30): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php on line 271
+[27-Apr-2018 04:20:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flight_year = '%2008%'' at line 1' in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php(271): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Final/index.php(30): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php on line 271
+[27-Apr-2018 04:20:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'flight_year = '%2007%'' at line 1' in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php:271
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php(271): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Final/index.php(30): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php on line 271
+[27-Apr-2018 05:26:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIKEFalcon Heavy' at line 1' in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php:273
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php(273): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Final/index.php(30): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php on line 273
+[27-Apr-2018 05:26:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Heavy' at line 1' in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php:273
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php(273): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/everodriguez/Final/index.php(30): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php on line 273
+[27-Apr-2018 06:21:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/spacexAPI.php on line 238
+[27-Apr-2018 06:21:37 UTC] PHP Stack trace:
+[27-Apr-2018 06:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/index.php:0
+[27-Apr-2018 06:21:37 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/everodriguez/Final/index.php:30
