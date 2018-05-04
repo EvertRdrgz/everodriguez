@@ -204,7 +204,7 @@
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
         
         //print_r($records);
-        $i = 0;
+        //$i = 0;
         foreach ($records as $rec) {
            
            echo "<input type=radio name='location' value='".$rec['flight_site']."'/>".$rec['flight_site']."<br>";
@@ -259,18 +259,17 @@
                 $sql .=  " AND price <= :priceTo";
                 $namedParameters[":priceTo"] =  $_GET['priceTo'];
             }
-            
+            */
             if(isset($_GET['orderBy'])) {
                 
-                if($_GET['orderBy'] == "price") {
-                    $sql .= " ORDER BY Price";
+                if($_GET['orderBy'] == "oldest") {
+                    $sql .= " ORDER BY flight_number ASC";
                 }   
                 else {
-                      $sql .= " ORDER BY Title";
+                      $sql .= " ORDER BY flight_number DESC";
                  }
             }
            
-           */
            
             echo $sql; //for debugging purposes
             
@@ -311,5 +310,17 @@
         
     }
     
+    if(isset($_POST['topFive'])){
+        $sql = "SELECT * FROM `PAST` ORDER BY flight_number DESC LIMIT 5";
+        
+        echo $sql; //for debugging purposes
+            
+        $stmt = $conn->prepare($sql);
+        $stmt->execute($namedParameters);
+        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
+             
+        echo "<br><br>";
+        print_r($records);
+    }
 
 ?>

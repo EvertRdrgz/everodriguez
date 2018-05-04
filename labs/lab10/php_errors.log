@@ -1,0 +1,145 @@
+[30-Apr-2018 21:55:58 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 3
+[30-Apr-2018 21:55:58 UTC] PHP Stack trace:
+[30-Apr-2018 21:55:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 21:55:58 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 3
+[30-Apr-2018 21:55:58 UTC] PHP Stack trace:
+[30-Apr-2018 21:55:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 21:55:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 7
+[30-Apr-2018 21:55:58 UTC] PHP Stack trace:
+[30-Apr-2018 21:55:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 21:55:58 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:19
+[30-Apr-2018 21:59:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 22
+[30-Apr-2018 21:59:20 UTC] PHP Stack trace:
+[30-Apr-2018 21:59:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:00:28 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 23
+[30-Apr-2018 22:00:28 UTC] PHP Stack trace:
+[30-Apr-2018 22:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:00:28 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 24
+[30-Apr-2018 22:00:28 UTC] PHP Stack trace:
+[30-Apr-2018 22:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:00:28 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 23
+[30-Apr-2018 22:00:28 UTC] PHP Stack trace:
+[30-Apr-2018 22:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:00:28 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 24
+[30-Apr-2018 22:00:28 UTC] PHP Stack trace:
+[30-Apr-2018 22:00:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:46 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 23
+[30-Apr-2018 22:01:46 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:46 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 24
+[30-Apr-2018 22:01:46 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:46 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 23
+[30-Apr-2018 22:01:46 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:46 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 24
+[30-Apr-2018 22:01:46 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:47 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:01:47 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:01:47 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:01:47 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:01:47 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:01:47 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:01:47 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:01:47 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:01:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 23
+[30-Apr-2018 22:01:49 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:49 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 24
+[30-Apr-2018 22:01:49 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:49 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 23
+[30-Apr-2018 22:01:49 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:49 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php on line 24
+[30-Apr-2018 22:01:49 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/index.php:0
+[30-Apr-2018 22:01:50 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:01:50 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:01:50 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:01:50 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:01:50 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:01:50 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:01:50 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:01:50 UTC] PHP Stack trace:
+[30-Apr-2018 22:01:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:04 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:02:04 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:04 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:02:04 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:04 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:02:04 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:04 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:02:04 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:07 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:02:07 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:07 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:02:07 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:07 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 24
+[30-Apr-2018 22:02:07 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:02:07 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:02:07 UTC] PHP Stack trace:
+[30-Apr-2018 22:02:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:04:39 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:04:39 UTC] PHP Stack trace:
+[30-Apr-2018 22:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:04:39 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:04:39 UTC] PHP Stack trace:
+[30-Apr-2018 22:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:04:39 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 26
+[30-Apr-2018 22:04:39 UTC] PHP Stack trace:
+[30-Apr-2018 22:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:04:39 UTC] PHP Warning:  Illegal string offset 'id' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:04:39 UTC] PHP Stack trace:
+[30-Apr-2018 22:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:04:39 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 25
+[30-Apr-2018 22:04:39 UTC] PHP Stack trace:
+[30-Apr-2018 22:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:04:39 UTC] PHP Warning:  Illegal string offset 'type' in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 26
+[30-Apr-2018 22:04:39 UTC] PHP Stack trace:
+[30-Apr-2018 22:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:05:01 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 5
+[30-Apr-2018 22:05:01 UTC] PHP Stack trace:
+[30-Apr-2018 22:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:05:01 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 5
+[30-Apr-2018 22:05:01 UTC] PHP Stack trace:
+[30-Apr-2018 22:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:05:01 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 9
+[30-Apr-2018 22:05:01 UTC] PHP Stack trace:
+[30-Apr-2018 22:05:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:05:01 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:20
+[30-Apr-2018 22:34:09 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 5
+[30-Apr-2018 22:34:09 UTC] PHP Stack trace:
+[30-Apr-2018 22:34:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:34:09 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 5
+[30-Apr-2018 22:34:09 UTC] PHP Stack trace:
+[30-Apr-2018 22:34:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:34:09 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 9
+[30-Apr-2018 22:34:09 UTC] PHP Stack trace:
+[30-Apr-2018 22:34:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:34:09 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:62
+[30-Apr-2018 22:34:20 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 5
+[30-Apr-2018 22:34:20 UTC] PHP Stack trace:
+[30-Apr-2018 22:34:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:34:20 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 5
+[30-Apr-2018 22:34:20 UTC] PHP Stack trace:
+[30-Apr-2018 22:34:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:34:20 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php on line 9
+[30-Apr-2018 22:34:20 UTC] PHP Stack trace:
+[30-Apr-2018 22:34:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
+[30-Apr-2018 22:34:20 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:62

@@ -1,0 +1,90 @@
+[02-May-2018 22:32:50 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:32:50 UTC] PHP Stack trace:
+[02-May-2018 22:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:50 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:32:50 UTC] PHP Stack trace:
+[02-May-2018 22:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:50 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:32:50 UTC] PHP Stack trace:
+[02-May-2018 22:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:53 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:32:53 UTC] PHP Stack trace:
+[02-May-2018 22:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:53 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:32:53 UTC] PHP Stack trace:
+[02-May-2018 22:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:32:53 UTC] PHP Stack trace:
+[02-May-2018 22:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:58 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:32:58 UTC] PHP Stack trace:
+[02-May-2018 22:32:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:58 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:32:58 UTC] PHP Stack trace:
+[02-May-2018 22:32:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:32:58 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:32:58 UTC] PHP Stack trace:
+[02-May-2018 22:32:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:00 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:00 UTC] PHP Stack trace:
+[02-May-2018 22:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:00 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:00 UTC] PHP Stack trace:
+[02-May-2018 22:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:33:00 UTC] PHP Stack trace:
+[02-May-2018 22:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:02 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:02 UTC] PHP Stack trace:
+[02-May-2018 22:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:02 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:02 UTC] PHP Stack trace:
+[02-May-2018 22:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:02 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:33:02 UTC] PHP Stack trace:
+[02-May-2018 22:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:33 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:33 UTC] PHP Stack trace:
+[02-May-2018 22:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:33 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:33 UTC] PHP Stack trace:
+[02-May-2018 22:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:33:33 UTC] PHP Stack trace:
+[02-May-2018 22:33:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:38 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:38 UTC] PHP Stack trace:
+[02-May-2018 22:33:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:38 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:38 UTC] PHP Stack trace:
+[02-May-2018 22:33:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:33:38 UTC] PHP Stack trace:
+[02-May-2018 22:33:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:46 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:46 UTC] PHP Stack trace:
+[02-May-2018 22:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:46 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:33:46 UTC] PHP Stack trace:
+[02-May-2018 22:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:33:46 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:33:46 UTC] PHP Stack trace:
+[02-May-2018 22:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:34:05 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:34:05 UTC] PHP Stack trace:
+[02-May-2018 22:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:34:05 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:34:05 UTC] PHP Stack trace:
+[02-May-2018 22:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:34:05 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:34:05 UTC] PHP Stack trace:
+[02-May-2018 22:34:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:35:34 UTC] PHP Warning:  include(../../../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:35:34 UTC] PHP Stack trace:
+[02-May-2018 22:35:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:35:34 UTC] PHP Warning:  include(): Failed opening '../../../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 5
+[02-May-2018 22:35:34 UTC] PHP Stack trace:
+[02-May-2018 22:35:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0
+[02-May-2018 22:35:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php on line 7
+[02-May-2018 22:35:34 UTC] PHP Stack trace:
+[02-May-2018 22:35:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Challenges/poll/poll.php:0

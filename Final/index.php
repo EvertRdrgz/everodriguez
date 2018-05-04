@@ -1,6 +1,6 @@
 <?php
 
-include 'spacexAPI.php'
+include 'functions.php'
 
 ?>
 
@@ -8,6 +8,7 @@ include 'spacexAPI.php'
 <html>
     <head>
         <title> </title>
+        
     </head>
     <body>
         
@@ -24,11 +25,29 @@ include 'spacexAPI.php'
             
             <?=getUniqueFlightRockets()?>
             
+            <select name="orderBy">
+                <option name="oldest" value="oldest">oldest</option>
+                <option name="newest" value="newest">newest</option>
+            </select>
+            
             <input type="submit" name="searchForm" value="Submit"/>
+            
+            
+        </form>
+        
+        
+        <h3 id="top_five">TOP FIVE</h3>
+       
+        
+       <form method='POST'>
+            <input type="submit" name="topFive" value="FIVE"/>
         </form>
         
         
         <?=displaySearchResults()?>
         
     </body>
+    <footer>
+        <a href="adminLogin.php" >Admin Login</a>
+    </footer>
 </html>
