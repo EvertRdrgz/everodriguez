@@ -143,3 +143,24 @@
 [30-Apr-2018 22:34:20 UTC] PHP Stack trace:
 [30-Apr-2018 22:34:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:0
 [30-Apr-2018 22:34:20 UTC] PHP   2. getAllPets() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php:62
+[05-May-2018 19:24:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_17fba7f9655f376'' in /home/ubuntu/workspace/everodriguez/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php(9): getDatabaseConnection('heroku_17fba7f9...')
+#2 /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php(66): getAllPets()
+#3 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/dbConnection.php on line 19
+[05-May-2018 19:26:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_17fba7f9655f376'' in /home/ubuntu/workspace/everodriguez/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php(9): getDatabaseConnection('heroku_17fba7f9...')
+#2 /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php(66): getAllPets()
+#3 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/dbConnection.php on line 19
+[05-May-2018 19:31:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_17fba7f9655f376'' in /home/ubuntu/workspace/everodriguez/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php(9): getDatabaseConnection('heroku_17fba7f9...')
+#2 /home/ubuntu/workspace/everodriguez/labs/lab10/pets/pets.php(66): getAllPets()
+#3 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/dbConnection.php on line 19

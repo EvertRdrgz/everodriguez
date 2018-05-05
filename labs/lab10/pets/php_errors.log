@@ -61,3 +61,9 @@
 [30-Apr-2018 22:35:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/labs/lab10/pets/api/getPetInfo.php on line 5
 [30-Apr-2018 22:35:54 UTC] PHP Stack trace:
 [30-Apr-2018 22:35:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/labs/lab10/pets/api/getPetInfo.php:0
+[05-May-2018 19:23:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_17fba7f9655f376'' in /home/ubuntu/workspace/everodriguez/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/everodriguez/labs/lab10/pets/api/getPetInfo.php(5): getDatabaseConnection('heroku_17fba7f9...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/dbConnection.php on line 19

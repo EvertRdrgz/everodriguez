@@ -2,7 +2,7 @@
 
    include '../../../../dbConnection.php';
 
-      $conn = getDatabaseConnection('pets');
+      $conn = getDatabaseConnection('heroku_17fba7f9655f376');
       
       $sql = "SELECT *, YEAR(CURDATE()) - yob age FROM pets WHERE id = :id";
       
