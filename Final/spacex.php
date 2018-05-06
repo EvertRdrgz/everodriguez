@@ -87,7 +87,7 @@ function getFutureFlights(){
 <html>
     
     <body>
-        <?php getFutureFlights() ?>
+        <?php getFutureFlights(); ?>
     </body>
 </html>
 
