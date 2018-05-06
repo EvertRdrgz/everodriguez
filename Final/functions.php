@@ -77,9 +77,10 @@
             $np[':flight_customers'] = $customerF;
             $np[':cargo_weight'] = $launch_total_weight;
             
+            /*
             $stm = $conn->prepare($sql2);
             $stm->execute($np);
-           
+            */
             $i++;
         }
         
@@ -153,15 +154,14 @@
             $np[':flight_customers'] = $customerF;
             $np[':cargo_weight'] = $launch_total_weight;
             
+            /*
             $stm = $conn->prepare($sql2);
             $stm->execute($np);
-           
+           */
             $i++;
             
             
         }
-        
-        echo "calling future funnction";
         
     }
     
@@ -327,16 +327,5 @@
         print_r($records);
     }
     
-    
-    //getPastFlights();
 
 ?>
-
-
-<!DOCTYPE html>
-<html>
-    
-    <body>
-        <?php getFutureFlights() ?>
-    </body>
-</html>
