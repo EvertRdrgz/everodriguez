@@ -1,7 +1,7 @@
 <?php
 
     include "../dbConnection.php";
-    $conn = getDatabaseConnection("SpaceX");
+    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
 
     function getPastFlights() {
         global $conn;
@@ -56,7 +56,7 @@
 
             }
             
-             $sql2 = "INSERT INTO `PAST`
+             $sql2 = "INSERT INTO `past`
             
             ( `flight_number`, `flight_year`, `flight_date`, `flight_site`, `flight_rocket_name`, `flight_rocket_type`,`flight_success`,`flight_patch`,`flight_article`, `flight_video`,`flight_cargo`,`flight_customers`,`cargo_weight`) 
              VALUES ( :flight_number, :flight_year, :flight_date, :flight_site, :flight_rocket_name, :flight_rocket_type,:flight_success ,:flight_patch ,:flight_article,:flight_video,:flight_cargo,:flight_customers,:cargo_weight)";
@@ -77,8 +77,8 @@
             $np[':flight_customers'] = $customerF;
             $np[':cargo_weight'] = $launch_total_weight;
             
-            /*$stm = $conn->prepare($sql2);
-            $stm->execute($np);*/
+            $stm = $conn->prepare($sql2);
+            $stm->execute($np);
            
             $i++;
         }
@@ -136,7 +136,7 @@
             }
 
             
-             $sql2 = "INSERT INTO `FUTURE`
+             $sql2 = "INSERT INTO `future`
             
             ( `flight_number`, `flight_year`, `flight_date`, `flight_site`, `flight_rocket_name`, `flight_rocket_type`,`flight_cargo`,`flight_customers`,`cargo_weight`) 
              VALUES ( :flight_number, :flight_year, :flight_date, :flight_site, :flight_rocket_name, :flight_rocket_type,:flight_cargo,:flight_customers,:cargo_weight)";
@@ -153,9 +153,9 @@
             $np[':flight_customers'] = $customerF;
             $np[':cargo_weight'] = $launch_total_weight;
             
-            /*$stm = $conn->prepare($sql2);
+            $stm = $conn->prepare($sql2);
             $stm->execute($np);
-           */
+           
             $i++;
         }
         
@@ -322,5 +322,9 @@
         echo "<br><br>";
         print_r($records);
     }
+    
+    getFutureFlights();
+    
+    getPastFlights();
 
 ?>
