@@ -328,9 +328,15 @@
     }
     
     
-    echo "calling functions";
-    getFutureFlights();
-    
     //getPastFlights();
 
 ?>
+
+
+<!DOCTYPE html>
+<html>
+    
+    <body>
+        <?php getFutureFlights() ?>
+    </body>
+</html>
