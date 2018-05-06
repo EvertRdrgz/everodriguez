@@ -157,7 +157,11 @@
             $stm->execute($np);
            
             $i++;
+            
+            
         }
+        
+        echo "calling future funnction";
         
     }
     
@@ -323,8 +327,10 @@
         print_r($records);
     }
     
+    
+    echo "calling functions";
     getFutureFlights();
     
-    getPastFlights();
+    //getPastFlights();
 
 ?>
