@@ -3,7 +3,7 @@
     
     //($_POST);
     
-    include "../../dbConnection.php";
+    include "../dbConnection.php";
     include "header.php";
     $conn = getDatabaseConnection("heroku_17fba7f9655f376");
     $username = $_POST['username'];
