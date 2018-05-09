@@ -1,0 +1,278 @@
+[07-May-2018 16:43:52 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/functions.php on line 3
+[07-May-2018 16:43:52 UTC] PHP Stack trace:
+[07-May-2018 16:43:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/index.php:0
+[07-May-2018 16:43:52 UTC] PHP   2. include() /home/ubuntu/workspace/everodriguez/Final/Dev/index.php:5
+[07-May-2018 16:43:52 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/functions.php on line 3
+[07-May-2018 16:43:52 UTC] PHP Stack trace:
+[07-May-2018 16:43:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/index.php:0
+[07-May-2018 16:43:52 UTC] PHP   2. include() /home/ubuntu/workspace/everodriguez/Final/Dev/index.php:5
+[07-May-2018 16:43:52 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/functions.php on line 4
+[07-May-2018 16:43:52 UTC] PHP Stack trace:
+[07-May-2018 16:43:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/index.php:0
+[07-May-2018 16:43:52 UTC] PHP   2. include() /home/ubuntu/workspace/everodriguez/Final/Dev/index.php:5
+[07-May-2018 17:28:15 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 17:28:15 UTC] PHP Stack trace:
+[07-May-2018 17:28:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 17:28:15 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 17:28:15 UTC] PHP Stack trace:
+[07-May-2018 17:28:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 17:28:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 17:28:15 UTC] PHP Stack trace:
+[07-May-2018 17:28:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 17:28:34 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 17:28:34 UTC] PHP Stack trace:
+[07-May-2018 17:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 17:28:34 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 17:28:34 UTC] PHP Stack trace:
+[07-May-2018 17:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 17:28:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 17:28:34 UTC] PHP Stack trace:
+[07-May-2018 17:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:31:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE flight_success = 1' at line 1' in /home/ubuntu/workspace/everodriguez/Final/Dev/functions.php:379
+Stack trace:
+#0 /home/ubuntu/workspace/everodriguez/Final/Dev/functions.php(379): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/everodriguez/Final/Dev/index.php(4): include('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/everodriguez/Final/Dev/functions.php on line 379
+[07-May-2018 22:43:55 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:43:55 UTC] PHP Stack trace:
+[07-May-2018 22:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:43:55 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:43:55 UTC] PHP Stack trace:
+[07-May-2018 22:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:43:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 22:43:55 UTC] PHP Stack trace:
+[07-May-2018 22:43:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:44:03 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:44:03 UTC] PHP Stack trace:
+[07-May-2018 22:44:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:44:03 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:44:03 UTC] PHP Stack trace:
+[07-May-2018 22:44:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:44:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 22:44:03 UTC] PHP Stack trace:
+[07-May-2018 22:44:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:17 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:45:17 UTC] PHP Stack trace:
+[07-May-2018 22:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:17 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:45:17 UTC] PHP Stack trace:
+[07-May-2018 22:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:17 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 22:45:17 UTC] PHP Stack trace:
+[07-May-2018 22:45:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:27 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:45:27 UTC] PHP Stack trace:
+[07-May-2018 22:45:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:27 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:45:27 UTC] PHP Stack trace:
+[07-May-2018 22:45:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 22:45:27 UTC] PHP Stack trace:
+[07-May-2018 22:45:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:55 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:45:55 UTC] PHP Stack trace:
+[07-May-2018 22:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:55 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:45:55 UTC] PHP Stack trace:
+[07-May-2018 22:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:45:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 22:45:55 UTC] PHP Stack trace:
+[07-May-2018 22:45:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:46:19 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:46:19 UTC] PHP Stack trace:
+[07-May-2018 22:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:46:19 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:46:19 UTC] PHP Stack trace:
+[07-May-2018 22:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:46:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 22:46:19 UTC] PHP Stack trace:
+[07-May-2018 22:46:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:47:31 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:47:32 UTC] PHP Stack trace:
+[07-May-2018 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:47:32 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 8
+[07-May-2018 22:47:32 UTC] PHP Stack trace:
+[07-May-2018 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[07-May-2018 22:47:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 9
+[07-May-2018 22:47:32 UTC] PHP Stack trace:
+[07-May-2018 22:47:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 02:01:14 UTC] PHP Fatal error:  Call to undefined function displaySearchResults() in /home/ubuntu/workspace/everodriguez/Final/Dev/results.php on line 4
+[08-May-2018 02:01:14 UTC] PHP Stack trace:
+[08-May-2018 02:01:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/results.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:58:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 151
+[08-May-2018 22:58:24 UTC] PHP Stack trace:
+[08-May-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php:0
+[08-May-2018 22:59:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 173
+[08-May-2018 23:00:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 175
+[08-May-2018 23:00:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 175
+[08-May-2018 23:00:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/everodriguez/Final/Dev/admin.php on line 175
+[09-May-2018 06:22:38 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/everodriguez/Final/Dev/flightDetail.php on line 6
+[09-May-2018 06:22:38 UTC] PHP Stack trace:
+[09-May-2018 06:22:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/everodriguez/Final/Dev/flightDetail.php:0
+[09-May-2018 06:58:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/everodriguez/Final/Dev/flightDetail.php on line 19

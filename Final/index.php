@@ -13,29 +13,32 @@ include 'functions.php'
     <body>
         
         <form >
+            <strong>Locations: </strong><br>
             <?=getUniqueLocations()?>
             <br>
             
+            <strong>Year: </strong><br>
             <select name="year">
                 <option name="select" value="select">Select One</option>
                 <?=getUniqueFlightYears()?>
             </select> 
             
             <br>
-            
+            <strong>Rockey Type:</strong><br>
             <?=getUniqueFlightRockets()?>
             
+            <strong>Sort by: </strong>
             <select name="orderBy">
-                <option name="oldest" value="oldest">oldest</option>
-                <option name="newest" value="newest">newest</option>
+                <option name="oldest" value="oldest">Oldest</option>
+                <option name="newest" value="newest">Newest</option>
             </select>
-            
+            <br>
             <input type="submit" name="searchForm" value="Submit"/>
             
             
         </form>
         
-        
+        <strong>Suggested </strong><br>
         <h3 id="top_five">TOP FIVE</h3>
        
         
