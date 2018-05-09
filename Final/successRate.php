@@ -1,6 +1,6 @@
 <?php
     include '../dbConnection.php';
-    $conn = getDatabaseConnection("SpaceX");
+    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
 
     $sql = "SELECT AVG(flight_success) s FROM `PAST`";
 

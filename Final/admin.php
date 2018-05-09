@@ -6,7 +6,10 @@
     }
     
     include '../dbConnection.php';
-    $conn = getDatabaseConnection("SpaceX");
+    
+    include 'header.php';
+    
+    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
      
     function displayAllPast(){
         global $conn;
@@ -40,11 +43,11 @@
         <title> Admin Main Page</title>
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <script>
-           /* 
+           
             function confirmDelete(){
                 return confirm ("Are you sure you want to delete item?");
             }
-            */
+            
             
             $(document).ready( function(){
                 
@@ -97,79 +100,125 @@
                     });//ajax
                 });//button
                 
-                
-                
             });
         </script>
     </head>
     <body>
             
-        <nav>
-            <a href="index.php">Home</a>
-            <a href="">Admin Home</a>
-            <a href="addFlight.php">Schedule New Flight</a>
-            <a href="logout.php">Logout</a>
-
-        </nav>
-        
         <h1>Admin Page</h1>
         
         <h3>Welcome <?=$_SESSION['adminName']?>!</h3>
         
         <br/>
+        <div id='stats'>
         <strong><h4>Stats</h4></strong>
-        <input type="submit" id="countButton" value="Numb. of Upcoming Flights"/>
-    
-        <span id='countF'></span>
         
-        <input type="submit" id="avgWButton" value="Avg. Weight."/>
-    
-        <span id='avgW'></span>
+        <input type="submit" id="countButton" class='btn btn btn-primary btn-sm' value="Numb. of Upcoming Flights"/>
+        <br>
+        <span id='countF'></span><br>
         
-        <input type="submit" id="succButton" value="Success Rate"/>
-    
+        <input type="submit" id="avgWButton" class='btn btn btn-primary btn-sm' value="Avg. Weight."/>
+        <br>
+        <span id='avgW'></span><br>
+        
+        <input type="submit" id="succButton" class='btn btn btn-primary btn-sm' value="Success Rate"/>
+        <br>
         <span id='successRate'></span>
         
-        <strong><h4>Flights:</h4></strong><br/>
-        <p>
+        </div>
+        <br>
+        <strong><h3>Future Flights</h3></strong>
+        <?php 
         
-        <strong>---Future Flights---</strong>
-        <?php $records=displayAllFuture();
-            foreach($records as $record) {
-   
-                echo $record['flight_number']." ";
-                echo substr($record['flight_date'],0,9)."<br><br>";
+        $records=displayAllFuture();
+
+        echo "<table style='width: auto;' id='resultsTable' class='table table-striped table-dark table-condensed'>
+              <thead>
+                <tr>
+                  <th scope='col'>#</th>
+                  <th scope='col'>Year</th>
+                  <th scope='col'>Date & Time </th>
+                  <th scope='col'>Site</th>
+                  <th scope='col'>Rocket</th>
+                  <th scope='col'>Edit</th>
+                  <th scope='col'>Delete</th>
+                </tr>
+              </thead>
+              <tbody>";
+        foreach ($records as $flight) {
+            $number = $flight["flight_number"];
+            $year = $flight["flight_year"];
+            $date = $flight["flight_date"];
+            $site = $flight["flight_site"];
+            $rocket = $flight["flight_rocket_name"];
                 
-                echo "<form action='updateFlight.php'>"; 
-                echo "<input type='hidden' name='flight_number' value= " . $record['flight_number'] . " />";
-                echo "<input type='submit' value = 'Update' />";
-                echo "</form><br>";
+            echo '<tr>';
                 
-                
-                
-                echo "<form action='deleteFlight.php' onsubmit = 'return confirmDelete()'>";
-                echo "<input type='hidden' name='flight_number' value= " . $record['flight_number'] . " />";
-                echo "<input type='submit' value = 'Remove' />";
-                echo "</form>";
-                
-                
-                echo '<br><br>';
-                
-            }
+            echo "<th scope='row'>".$number."</th>";
+            echo "<td>".$year."</td>";
+            echo "<td>".$date."</td>";
+            echo "<td>".$site."</td>";
+            echo "<td>".$rocket."</td>";
+            
+            echo "<form action='updateFlight.php'>"; 
+            echo "<input type='hidden' name='flight_number' value= " . $flight['flight_number'] . " />";
+            echo "<td><input type='submit' class='btn btn-success btn-sm' value = 'Update' /></td>";
+            echo "</form>";
+            
+            echo "<form action='deleteFlight.php' onsubmit = 'return confirmDelete()'>";
+            echo "<input type='hidden' name='flight_number' value= " . $flight['flight_number'] . " />";
+            echo "<td><input type='submit' class='btn btn-danger btn-sm' value = 'Remove' /></td>";
+            echo "</form>";
+            echo "</tr>";
+        }
+            echo " </tbody>
+                    </table>";
         
         ?>
         
-        <strong><h2>---Past Flights---</h2></strong>
-        <?php $records=displayAllPast();
-            foreach($records as $record) {
-   
-                echo $record['flight_number']." ";
-                echo substr($record['flight_date'],0,9)."<br><br>";
-                
-                echo '<br><br>';
-                
-            }
+        <br>
+        <strong><h3>Past Flights</h3></strong>
+        <?php
         
+        $records=displayAllPast();
+        
+        echo "<table style='width: auto;' id='resultsTable' class='table table-striped table-dark table-condensed'>
+              <thead>
+                <tr>
+                  <th scope='col'>#</th>
+                  <th scope='col'>Year</th>
+                  <th scope='col'>Date & Time </th>
+                  <th scope='col'>Site</th>
+                  <th scope='col'>Rocket</th>
+                  <th scope='col'>Cargo</th>
+                  <th scope='col'>Sucess</th>
+                </tr>
+              </thead>
+              <tbody>";
+              
+        foreach ($records as $flight) {
+            $number = $flight["flight_number"];
+            $year = $flight["flight_year"];
+            $date = $flight["flight_date"];
+            $site = $flight["flight_site"];
+            $rocket = $flight["flight_rocket_name"];
+            $cargo = $flight["flight_cargo"];
+            $success = $flight["flight_success"];
+                
+            echo '<tr>';
+                
+            echo "<th scope='row'>".$number."</th>";
+            echo "<td>".$year."</td>";
+            echo "<td>".$date."</td>";
+            echo "<td>".$site."</td>";
+            echo "<td>".$rocket."</td>";
+            echo "<td>".$cargo."</td>";
+            echo "<td>".$success."</td>";
+            
+            echo "</tr>";
+        }
+            echo " </tbody>
+                    </table>";
         ?>
     </body>
 </html>

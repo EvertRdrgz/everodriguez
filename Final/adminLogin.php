@@ -1,4 +1,6 @@
 <?php
+    
+    include 'header.php';
 
     session_start();
     
@@ -7,13 +9,6 @@
     }
 ?>
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Admin Login </title>
-    </head>
-    <body>
-        
         <h1>SpaceX - Admin Login</h1>
         <form method="POST" action="loginProcess.php">
             
@@ -23,5 +18,6 @@
             <input type='submit' value = 'Login' />
         </form>
         
-    </body>
-</html>
+<?php
+    include 'footer.php';
+?>

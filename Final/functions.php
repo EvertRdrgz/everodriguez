@@ -194,7 +194,7 @@
         
        foreach ($records as $rec) {
            
-           echo "<option value=".$rec['flight_year'].">" .$rec['flight_year']. "</option><br>";
+           echo "<option value=".$rec['flight_year'].">" .$rec['flight_year']. "</option>";
            
        }
    }
@@ -222,11 +222,6 @@
         
         if (isset($_GET['searchForm'])) { //checks whether user has submitted the form
             
-            echo "<h3>Flights Found: </h3>"; 
-            
-            echo "<input type=submit name='filterButton' value='Filter' />";
-            
-
             $namedParameters = array();
             
             $sql = "SELECT * FROM `PAST` WHERE 1";
@@ -235,16 +230,13 @@
                  $sql .=  " AND flight_year = :flight_year";
                  $namedParameters[":flight_year"] = $_GET['year'];
                  
-                 echo $_GET['year']."<br>";
             }
                   
-            
             
             if (!empty($_GET['rocketname'])) {
                  $sql .= " AND flight_rocket_name LIKE :flight_rocket_name";
                  $namedParameters[":flight_rocket_name"] = $_GET['rocketname'];
             }
-            
             
              
             if (!empty($_GET['location'])) {
@@ -252,18 +244,6 @@
                 $namedParameters[":flight_site"] =  $_GET['location'];
             }
             
-            /*
-            
-            if (!empty($_GET['priceFrom'])) { //checks whether user has typed something in the "Product" text box
-                $sql .=  " AND price >= :priceFrom";
-                $namedParameters[":priceFrom"] =  $_GET['priceFrom'];
-            }
-             
-            if (!empty($_GET['priceTo'])) { //checks whether user has typed something in the "Product" text box
-                $sql .=  " AND price <= :priceTo";
-                $namedParameters[":priceTo"] =  $_GET['priceTo'];
-            }
-            */
             if(isset($_GET['orderBy'])) {
                 
                 if($_GET['orderBy'] == "oldest") {
@@ -275,57 +255,63 @@
             }
            
            
-            echo $sql; //for debugging purposes
+            //echo $sql; //for debugging purposes
             
             $stmt = $conn->prepare($sql);
             $stmt->execute($namedParameters);
             $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-             
+            
             echo "<br><br>";
              
-            print_r($records);
-        
-            /*echo "<table>";
-            foreach ($records as $record) {
-                $gameID = $record["ID"];
-                $gameTitle = $record["Title"];
-                $gameGenre = $record["Genre"];
-                $gamePlatform = $record['Platform'];
-                $gamePrice = $record["Price"];
+            echo "<h3>Flights Found: </h3>"; 
+            
+            echo "<br>";
+             
+            //print_r($records);
+            
+            echo "<table style='width: auto;' id='resultsTable' class='table table-striped table-dark table-condensed'>
+                  <thead>
+                    <tr>
+                      <th scope='col'>#</th>
+                      <th scope='col'>Year</th>
+                      <th scope='col'>Date & Time </th>
+                      <th scope='col'>Site</th>
+                      <th scope='col'>Rocket</th>
+                      <th scope='col'>Success</th>
+                      <th scope='col'>Info</th>
+                    </tr>
+                  </thead>
+                  <tbody>";
+            foreach ($records as $flight) {
+                $number = $flight["flight_number"];
+                $year = $flight["flight_year"];
+                $date = $flight["flight_date"];
+                $site = $flight["flight_site"];
+                $rocket = $flight["flight_rocket_name"];
+                $success = $flight["flight_success"];
+
                 
                 echo '<tr>';
-                //echo "<td><img src='$itemImage'><</td>";
-                //echo "<td><a href=gameInfo.php?gameID=".$gameID."'>More Info</a></td>";
-                echo "<td><h4>$gameTitle</h4></td>";
-                echo "<td><h4>$gameGenre</h4></td>";
-                echo "<td><h4>$gamePlatform</h4></td>";
-                echo "<td><h4>$$gamePrice</h4></td>";
                 
-                //Hidden input elements
+                echo "<th scope='row'>".$number."</th>";
+                echo "<td>".$year."</td>";
+                echo "<td>".$date."</td>";
+                echo "<td>".$site."</td>";
+                echo "<td>".$rocket."</td>";
+                echo "<td>".$success."</td>";
                 
-                echo '<form method="POST">';
-                echo "<input type='hidden' name='gameTitle' value='$gameTitle'>";
-                echo "<td><button name='addButton' value='$gameTitle'>Add</button></td>";
+                echo "<form action='flightDetail.php'>"; 
+                echo "<input type='hidden' name='flight_number' value=".$number." />";
+                echo "<td><input type='submit' class='btn btn-success btn-sm' value = 'Info' /></td>";
                 echo "</form>";
+
                 echo "</tr>";
             }
-            echo "</table>";*/
-        }
+            echo " </tbody>
+                    </table>";
+                    
+        }// if form was submitted
         
-    }
+    }//displaySearchResults()
     
-    if(isset($_POST['topFive'])){
-        $sql = "SELECT * FROM `PAST` ORDER BY flight_number DESC LIMIT 5";
-        
-        echo $sql; //for debugging purposes
-            
-        $stmt = $conn->prepare($sql);
-        $stmt->execute($namedParameters);
-        $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-             
-        echo "<br><br>";
-        print_r($records);
-    }
-    
-
 ?>

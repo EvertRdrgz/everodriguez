@@ -1,11 +1,11 @@
 <?php
     session_start();
     
-    
     //($_POST);
     
-    include "../dbConnection.php";
-    $conn = getDatabaseConnection("SpaceX");
+    include "../../dbConnection.php";
+    include "header.php";
+    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
     
@@ -39,4 +39,6 @@
        $_SESSION['adminName'] = $record['first_name']." ".$record['last_name'];
         header("Location:admin.php");
     }
+    
+    include 'footer.php';
 ?>
