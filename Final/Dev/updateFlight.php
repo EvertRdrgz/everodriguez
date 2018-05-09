@@ -3,7 +3,7 @@
     
     include 'header.php';
     
-    $conn = getDatabaseConnection("SpaceX");
+    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
     
     function getFutureFlight(){
         

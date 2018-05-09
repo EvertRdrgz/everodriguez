@@ -1,7 +1,7 @@
 <?php
 
     include "../../dbConnection.php";
-    $conn = getDatabaseConnection("SpaceX");
+    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
 
     function getPastFlights() {
         global $conn;
