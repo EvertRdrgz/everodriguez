@@ -5,7 +5,7 @@
     
     include "../../dbConnection.php";
     include "header.php";
-    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
+    $conn = getDatabaseConnection("SpaceX");
     $username = $_POST['username'];
     $password = sha1($_POST['password']);
     

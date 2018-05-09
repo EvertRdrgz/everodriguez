@@ -1,6 +1,6 @@
 <?php
     include '../../dbConnection.php';
-    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
+    $conn = getDatabaseConnection("SpaceX");
 
     $sql = "SELECT COUNT(flight_number) f FROM `FUTURE`";
 

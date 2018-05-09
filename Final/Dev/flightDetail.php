@@ -4,7 +4,7 @@ include 'header.php';
 include "../../dbConnection.php";
 
 if(isset($_GET['flight_number'])){
-    $conn = getDatabaseConnection("heroku_17fba7f9655f376");
+    $conn = getDatabaseConnection("SpaceX");
 
     $sql = " SELECT *
             FROM `PAST`

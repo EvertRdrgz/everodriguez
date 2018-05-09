@@ -6,7 +6,7 @@ if(!isset($_SESSION['adminName'])){
 //include "../dbConnection.php";
 include "functions.php";
 include 'header.php';
-$conn = getDatabaseConnection("heroku_17fba7f9655f376");
+$conn = getDatabaseConnection("SpaceX");
 
 
 if(isset($_GET['schedule'])){
